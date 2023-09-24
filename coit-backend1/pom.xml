@@ -55,17 +55,17 @@
             </plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-		<repository>
-			<id>coit-maven-repo-release</id>
-			<name>coit-maven-repo-release</name>
-			<url>http://52.66.178.125:8081/repository/coit-maven-repo-release/</url>
-		</repository>
-		<snapshotRepository>
-			<id>coit-maven-repo-snapshot</id>
-			<name>coit-maven-repo-snapshot</name>
-			<url>http://52.66.178.125:8081/repository/coit-maven-repo-snapshot/</url>
-		</snapshotRepository>
-	</distributionManagement>
+   	  <distributionManagement>
+        <repository>
+         <id>coit-maven-repo-release</id>
+      <!-- CHANGE HERE by your team nexus server -->
+         <url>http://13.233.174.51:8081/repository/coit-maven-repo-release/</url>
+       </repository>
+       <snapshotRepository>
+        <id>coit-maven-repo-snapshot</id>
+      <!-- CHANGE HERE by your team nexus server -->
+        <url>http://13.233.174.51:8081/repository/coit-maven-repo-snapshot/</url>
+      </snapshotRepository>
+      </distributionManagement>
 
 </project>
